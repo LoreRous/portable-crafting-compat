@@ -1,0 +1,26 @@
+# Gradle / Loom
+.gradle/
+build/
+out/
+run/
+remappedSrc/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+bin/
+
+# Third-party mod jars (not redistributable, fetched from Modrinth maven instead)
+libs/
+
+# Local backups of working jars
+backup/
+
+# Private notes (local Claude Code instructions)
+Claude_*.md
+CLAUDE.md
+
+# OS
+Thumbs.db
+.DS_Store

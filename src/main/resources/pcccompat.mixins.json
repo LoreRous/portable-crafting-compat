@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.pcccompat.mixin",
+  "plugin": "io.github.pcccompat.mixin.PcccMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinEnchanterMenu",
+    "MixinItemStack",
+    "MixinUncraftingPacketHandler",
+    "MixinUncraftingTableMenuServer"
+  ],
+  "client": [
+    "MixinClientWorldBlockEntity",
+    "MixinClientWorldUpdateListeners",
+    "MixinUncraftingTableMenu"
+  ]
+}

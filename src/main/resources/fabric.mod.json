@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "pcccompat",
+  "version": "${version}",
+  "name": "Portable Crafting Compat",
+  "description": "General compatibility add-on for Portable Crafting: use modded workstations (Uncraft Everything, Precise Enchanting and more) straight from your inventory.",
+  "authors": [
+    "LoreRous"
+  ],
+  "contact": {
+    "homepage": "https://github.com/LoreRous/portable-crafting-compat",
+    "sources": "https://github.com/LoreRous/portable-crafting-compat",
+    "issues": "https://github.com/LoreRous/portable-crafting-compat/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/pcccompat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.pcccompat.PortableCraftingCompat"
+    ],
+    "client": [
+      "io.github.pcccompat.PortableCraftingCompatClient"
+    ]
+  },
+  "mixins": [
+    "pcccompat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "portable_crafting": "*"
+  },
+  "suggests": {
+    "uncrafteverything": "*",
+    "slider_enchanting": "*"
+  },
+  "contributors": [
+    "Claude Code (AI assistant)"
+  ]
+}
