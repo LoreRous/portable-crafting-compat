@@ -6,7 +6,7 @@ Tutto il testo destinato agli utenti è in inglese, perché su Modrinth e CurseF
 
 | File | A cosa serve |
 |---|---|
-| `publishing/icon-512.png` | Icona provvisoria: sostituiscila con la tua (e anche `src/main/resources/assets/pcccompat/icon.png`, 128×128, che va dentro al jar) |
+| `publishing/icon-512.png` | Icona da caricare su Modrinth/CurseForge (512×512, sotto il limite di 256 KB di Modrinth). È ricavata dall'originale `publishing/icon.png` (2560×2560), così come quella 128×128 dentro al jar (`src/main/resources/assets/pcccompat/icon.png`): se cambi l'icona, rigenera entrambe |
 | `publishing/DESCRIPTION.md` | Descrizione lunga, da incollare su Modrinth e CurseForge |
 | `README.md` | Pagina principale del repository GitHub |
 | `CONTRIBUTING.md` | Spiega agli altri come aggiungere compatibilità |
